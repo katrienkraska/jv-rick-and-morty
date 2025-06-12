@@ -1,14 +1,14 @@
-package service;
+package mate.academy.rickandmorty.service;
 
 import jakarta.annotation.PostConstruct;
-import model.ApiCharacter;
-import model.CharacterEntity;
+import mate.academy.rickandmorty.model.ApiCharacter;
+import mate.academy.rickandmorty.model.CharacterEntity;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import repository.ApiResponse;
-import repository.CharacterRepository;
+import mate.academy.rickandmorty.repository.ApiResponse;
+import mate.academy.rickandmorty.repository.CharacterRepository;
 
 @Service
 public class CharacterLoader {
