@@ -1,6 +1,6 @@
-package repository;
+package mate.academy.rickandmorty.repository;
 
-import model.ApiCharacter;
+import mate.academy.rickandmorty.model.ApiCharacter;
 import java.util.List;
 
 public class ApiResponse {
